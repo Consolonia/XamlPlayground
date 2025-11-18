@@ -59,6 +59,8 @@
 
     <!-- Adaptive Layout Trigger -->
     <x:Double x:Key="AdaptiveWidthTrigger">90</x:Double>
+    <SolidColorBrush x:Key="TextAreaSelectionBrush">#3399FF</SolidColorBrush>
+
   </Application.Resources>
 
   <Application.DataTemplates>
