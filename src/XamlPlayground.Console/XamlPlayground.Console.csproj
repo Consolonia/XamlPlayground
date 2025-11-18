@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -24,16 +24,17 @@
 
 
   <ItemGroup>
-    <PackageReference Include="Consolonia" Version="11.3.4-beta.1648" />
-    <PackageReference Include="Consolonia.AvaloniaEdit" Version="11.3.4-beta.1648" />
+    <PackageReference Include="Consolonia" Version="11.3.7-beta.2027" />
+    <PackageReference Include="Consolonia.Fonts" Version="11.3.7-beta.2027" />
+    <PackageReference Include="Consolonia.AvaloniaEdit" Version="11.3.7-beta.2027" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\XamlPlayground\XamlPlayground.csproj" />
+    <ProjectReference Include="..\XamlPlayground\XamlPlayground.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="../Icon.png" Pack="True" PackagePath="\" />
-    <None Include="../README.md" Pack="true" PackagePath="\" />
+    <None Include="../../Icon.png" Pack="True" PackagePath="\" />
+    <None Include="../../README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 </Project>

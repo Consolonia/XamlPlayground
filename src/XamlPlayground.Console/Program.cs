@@ -1,5 +1,6 @@
 using Avalonia;
 using Consolonia;
+using Consolonia.Fonts;
 
 namespace XamlPlayground.Console
 {
@@ -15,8 +16,10 @@ namespace XamlPlayground.Console
         {
             return AppBuilder.Configure<App>()
                 .UseConsolonia()
+                .WithConsoleFonts()
                 .UseAutoDetectedConsole()
                 .LogToException();
         }
     }
 }
+
